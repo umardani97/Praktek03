@@ -35,5 +35,15 @@ public class SepedaAksi {
        System.out.println("Jenis Ontel \t:"+UI.getJenisontel());
        UI.throttle();
        
+       SepedaGunung po =new SepedaGunung();
+       po.setMerk("Zeus");
+       po.setWarna("Putih");
+       po.setHarga(8000000);
+       po.setJenisban("Ban Anti BADAI");
+       
+       po.cetakInfo();
+       System.out.println("Jenis Ban \t:"+po.getJenisban());
+       po.trottle();
+       
     }
 }
