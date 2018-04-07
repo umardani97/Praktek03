@@ -24,5 +24,16 @@ public class SepedaAksi {
        ym.cetakInfo();
        System.out.println("JenisMotor \t:"+ym.getJenismotor());
        ym.throttle();
+       
+       SepedaOntel UI = new SepedaOntel();
+       UI.setMerk("Jali-jali");
+       UI.setWarna("Abu-abu");
+       UI.setHarga(50000);
+       UI.setJenisontel("tinjak");
+       
+       UI.cetakInfo();
+       System.out.println("Jenis Ontel \t:"+UI.getJenisontel());
+       UI.throttle();
+       
     }
 }
